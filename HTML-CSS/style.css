@@ -1,3 +1,5 @@
+@import url("reset.css");
+
 html {
   font-size: 16px;
   font-family: Helvetica, sans-serif;
@@ -6,6 +8,7 @@ html {
 
 body {
   background-color: #151019;
+  height: 100vh;
 }
 
 section {
@@ -15,16 +18,54 @@ section {
   transform: translate(-50%, -50%);
   box-shadow: rgba(0, 0, 0, 0.28) 0px 0px 18px 18px;
   border-radius: 20px;
-  width: 450px;
+  width: 425px;
   height: 500px;
   background-color: rgba(0, 0, 0, 0.28);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
 }
 
-section > h1 {
+section > header > h1 {
   text-align: center;
-  color: rgb(165, 165, 165);
+  color: rgb(196, 196, 196);
   font-weight: bold;
-  margin: 40px 0px;
+  margin-top: 20px;
   font-size: 2rem;
+  letter-spacing: 3px;
+}
+
+section > header > h2 {
+  text-align: center;
+  color: rgb(196, 196, 196);
+  font-weight: normal;
+  font-size: 1.1rem;
   height: 100px;
+  letter-spacing: 2px;
+}
+
+section > form {
+  text-align: center;
+  width: 100%;
+}
+
+section > form > input {
+  width: 90%;
+  border: none;
+  height: 40px;
+  border-radius: 10px;
+  background-color: rgba(0, 0, 0, 0.48);
+}
+
+section > button{
+  margin-bottom: 20px;
+  width: 30%;
+  height: 40px;
+  border: none;
+  background-color: rgba(0, 0, 0, 0.48);
+  border-radius: 10px;
+  color: rgb(196, 196, 196);
+  font-size: 1.3rem;
+  letter-spacing: 2px;
 }
