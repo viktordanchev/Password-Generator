@@ -1,0 +1,17 @@
+html {
+  background-image: url("Images/background-image.png");
+  background-size: 1960px 930px;
+  font-size: 19px;
+}
+
+section {
+  border: 10px solid black;
+  width: 30%;
+  height: 300px;
+  margin: auto;
+  text-align: center;
+}
+
+body > h1 {
+
+}
