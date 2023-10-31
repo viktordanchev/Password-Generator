@@ -16,11 +16,11 @@ section {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  box-shadow: rgba(0, 0, 0, 0.28) 0px 0px 18px 18px;
+  box-shadow: rgba(0, 0, 0, 0.23) 0px 0px 18px 18px;
   border-radius: 20px;
   width: 425px;
   height: 500px;
-  background-color: rgba(0, 0, 0, 0.28);
+  background-color: rgba(0, 0, 0, 0.23);
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -29,7 +29,6 @@ section {
 
 section > header > h1 {
   text-align: center;
-  color: rgb(196, 196, 196);
   font-weight: bold;
   margin-top: 20px;
   font-size: 2rem;
@@ -38,7 +37,6 @@ section > header > h1 {
 
 section > header > h2 {
   text-align: center;
-  color: rgb(196, 196, 196);
   font-weight: normal;
   font-size: 1.1rem;
   height: 100px;
@@ -56,16 +54,37 @@ section > form > input {
   height: 40px;
   border-radius: 10px;
   background-color: rgba(0, 0, 0, 0.48);
+  box-shadow: rgba(0, 0, 0, 0.48) 0px 0px 8px 8px;
 }
 
-section > button{
+section > button {
   margin-bottom: 20px;
   width: 30%;
   height: 40px;
   border: none;
   background-color: rgba(0, 0, 0, 0.48);
   border-radius: 10px;
-  color: rgb(196, 196, 196);
   font-size: 1.3rem;
   letter-spacing: 2px;
+  box-shadow: rgba(0, 0, 0, 0.48) 0px 0px 8px 8px;
+}
+
+h1,
+h2,
+button,
+label {
+  color: rgb(196, 196, 196);
+}
+
+section > article {
+  height: 30%;
+  width: 60%;
+  display: flex;
+  justify-content: start;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+section > article label > input {
+  border: 10px solid black;
 }
