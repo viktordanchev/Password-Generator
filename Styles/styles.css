@@ -1,6 +1,7 @@
 @import url("heading.css");
 @import url("password-field.css");
 @import url("slider.css");
+@import url("checkboxes-form.css");
 
 * {
   box-sizing: border-box;
@@ -27,7 +28,7 @@ section {
   box-shadow: rgba(0, 0, 0, 0.3) 0px 0px 18px 18px;
   border-radius: 20px;
   width: 425px;
-  height: 370px;
+  height: 400px;
   background-color: rgba(0, 0, 0, 0.3);
   display: flex;
   flex-direction: column;
@@ -37,7 +38,7 @@ section {
 }
 
 section > article {
-  height: 35%;
+  height: 40%;
   width: 90%;
   display: flex;
   flex-direction: column;

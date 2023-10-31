@@ -1,0 +1,17 @@
+.checkboxes-form {
+  display: grid;
+  grid-template-areas:
+    "box box"
+    "box box";
+  font-size: 1.2em;
+  height: 15%;
+  gap: 5px;
+}
+
+.checkboxes-form .checkbox:nth-child(odd) {
+  padding-left: 40%;
+}
+
+.checkboxes-form .checkbox:nth-child(even) {
+  padding-left: 10%;
+}
