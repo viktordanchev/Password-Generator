@@ -5,42 +5,46 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Password-Generator</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="Styles/styles.css">
 </head>
 
 <body id="particles-js">
     <section>
-        <header>
+        <header class="heading">
             <h1>Password Generator</h1>
             <h2>by Viktor Danchev</h2>
         </header>
-        <form>
+        <form class="password-field">
             <input type="text" disabled>
         </form>
         <article>
-            <form class="checkbox-form">
-                <label>Uppercase
+            <form class="checkboxes-form">
+                <div class="checkbox">
                     <input type="checkbox">
-                </label>
-                <label>Lowercase
+                    <label>Uppercase</label>
+                </div>
+                <div class="checkbox">
                     <input type="checkbox">
-                </label>
-                <label>Numbers
+                    <label>Lowercase</label>
+                </div>
+                <div class="checkbox">
                     <input type="checkbox">
-                </label>
-                <label>Symbols
+                    <label>Numbers</label>
+                </div>
+                <div class="checkbox">
                     <input type="checkbox">
-                </label>
+                    <label>Symbols</label>
+                </div>
             </form>
             <form class="slider-form">
                 <label>Password Length:</label>
-                <input type="range" min="1" max="100" class="slider" id="myRange">
+                <input type="range" min="1" max="23" class="slider" id="myRange">
             </form>
         </article>
         <button>Generate</button>
     </section>
-    <script src="particles.js"></script>
-    <script src="app.js"></script>
+    <script src="Functionality/particles.js"></script>
+    <script src="Functionality/app.js"></script>
 </body>
 
 </html>

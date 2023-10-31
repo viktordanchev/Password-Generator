@@ -1,0 +1,57 @@
+@import url("heading.css");
+@import url("password-field.css");
+@import url("slider.css");
+
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+
+html {
+  font-size: 16px;
+  font-family: Helvetica, sans-serif;
+  overflow: hidden;
+}
+
+body {
+  background-color: #151019;
+  height: 100vh;
+}
+
+section {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 0px 18px 18px;
+  border-radius: 20px;
+  width: 425px;
+  height: 370px;
+  background-color: rgba(0, 0, 0, 0.3);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  color: rgb(211, 211, 211);
+}
+
+section > article {
+  height: 35%;
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+section > button {
+  width: 30%;
+  height: 40px;
+  border: none;
+  background-color: rgba(0, 0, 0, 0.48);
+  border-radius: 10px;
+  font-size: 1.2em;
+  letter-spacing: 2px;
+  box-shadow: rgba(0, 0, 0, 0.48) 0px 0px 8px 8px;
+  color: rgb(211, 211, 211);
+}

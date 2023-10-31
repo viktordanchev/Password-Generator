@@ -1,0 +1,17 @@
+.heading {
+  color: rgb(211, 211, 211);
+}
+
+header.heading > h1 {
+  text-align: center;
+  font-weight: bold;
+  font-size: 2em;
+  letter-spacing: 3px;
+}
+
+header.heading > h2 {
+  text-align: center;
+  font-weight: normal;
+  font-size: 1.1em;
+  letter-spacing: 2px;
+}
