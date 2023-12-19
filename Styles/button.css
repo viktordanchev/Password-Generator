@@ -1,16 +1,22 @@
 section > button {
-    cursor: pointer;
-    width: 35%;
-    height: 50px;
-    border: none;
-    background-color: rgba(0, 0, 0, 0.48);
-    border-radius: 10px;
-    font-size: 1.3em;
-    letter-spacing: 2px;
-    
-    color: rgb(211, 211, 211);
-  }
-  
-  section > button:hover {
-    border: 2px solid white;
-  }
+  cursor: pointer;
+  width: 35%;
+  height: 50px;
+  border: none;
+  background-color: rgb(136, 200, 255, 0.5);
+  border-radius: 20px;
+  font-size: 1.3em;
+  font-weight: bold;
+  letter-spacing: 1px;
+  color: rgb(211, 211, 211);
+}
+
+section > button:hover {
+  border: 1px solid rgb(211, 211, 211);
+  transform: translateY(-3px);
+}
+
+section > button:active {
+  transform: translateY(-1px);
+  box-shadow: 0 5px 10px rgb(211, 211, 211, 0.3);
+}
