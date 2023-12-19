@@ -1,0 +1,16 @@
+section > button {
+    cursor: pointer;
+    width: 35%;
+    height: 50px;
+    border: none;
+    background-color: rgba(0, 0, 0, 0.48);
+    border-radius: 10px;
+    font-size: 1.3em;
+    letter-spacing: 2px;
+    
+    color: rgb(211, 211, 211);
+  }
+  
+  section > button:hover {
+    border: 2px solid white;
+  }
