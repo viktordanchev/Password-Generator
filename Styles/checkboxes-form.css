@@ -8,10 +8,10 @@
   gap: 5px;
 }
 
-.checkboxes-form .checkbox:nth-child(odd) {
+.checkboxes-form div:nth-child(odd) {
   padding-left: 40%;
 }
 
-.checkboxes-form .checkbox:nth-child(even) {
+.checkboxes-form div:nth-child(even) {
   padding-left: 10%;
 }
