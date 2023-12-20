@@ -59,7 +59,7 @@ function generate() {
   }
 
   document.querySelector(".password-field input").value = password;
-  spanField = password.length;
+  document.querySelector(".password-field span").textContent = "Copy";
 }
 
 function getUppercaseLetters() {

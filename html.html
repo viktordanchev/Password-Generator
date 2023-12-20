@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Click Event on Input with Disabled Attribute</title>
+</head>
+
+<body>
+
+    <div id="inputContainer">
+        <input type="text" id="myInput" placeholder="Click me" disabled>
+    </div>
+
+    <script>
+        // Get the container element by its ID
+        var containerElement = document.getElementById('inputContainer');
+
+        // Add a click event listener to the container element
+        containerElement.addEventListener('click', function (event) {
+            // Check if the target of the click is the input element and if it's not disabled
+            if (event.target.id === 'myInput' && !event.target.disabled) {
+                // Perform the desired action when the input is clicked and not disabled
+                alert('Input clicked! You can perform your custom action here.');
+            }
+        });
+    </script>
+
+</body>
+
+</html>
