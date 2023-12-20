@@ -1,9 +1,7 @@
-const inputContainer = document.getElementById("inputContainer");
-inputContainer.addEventListener("click", copyText);
+const passField = document.getElementById("textArea");
+passField.addEventListener("click", copyText);
 
 function copyText() {
-  const passField = document.querySelector(".password-field div input");
-
   navigator.clipboard.writeText(passField.value);
   document.querySelector(".password-field span").textContent = "Copied";
 }
