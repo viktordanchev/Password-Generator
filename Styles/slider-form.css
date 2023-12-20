@@ -42,3 +42,10 @@
   background: #88c8ff;
   cursor: pointer;
 }
+
+.slider > span {
+  width: 25px;
+  height: 25px;
+  background: #88c8ff;
+  cursor: pointer;
+}
