@@ -18,5 +18,5 @@ section > button:hover {
 
 section > button:active {
   transform: translateY(-1px);
-  box-shadow: 0 5px 10px rgb(211, 211, 211, 0.3);
+  box-shadow: 0 5px 10px rgb(211, 211, 211, 0.2);
 }

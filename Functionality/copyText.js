@@ -1,9 +1,6 @@
-var cursor = document.querySelector(".password-field p");
+const passField = document.getElementById("textArea");
+passField.addEventListener("mouseover", copyText);
 
-document.addEventListener("mousemove", (e) => {
-  var x = e.clientX;
-  var y = e.clientY;
-
-  cursor.style.left = `${x}px`;
-  cursor.style.top = `${y}px`;
-});
+function copyText() {
+  navigator.clipboard.writeText(passField.value);
+}
