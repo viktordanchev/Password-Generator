@@ -16,8 +16,8 @@
     font-size: 1.2em;
   }
 
-  section > form.password-field input:focus {
-    border: 1px solid rgb(211, 211, 211);
-    transform: translateY(-1px);
+  section > form.password-field input:hover,
+  section > form.password-field input:active {
+    transform: translateY(1px);
   }
 }

@@ -8,16 +8,18 @@ section > button {
   font-size: 1.3em;
   font-weight: bold;
   letter-spacing: 1px;
-  color: white;
+  color: rgb(222, 222, 222);
 }
 
 section > button:hover {
-  border: 1px solid white;
+  border: 1px solid rgb(222, 222, 222);
   transform: translateY(-1px);
   background-color: #88c8ff;
+  color: white;
 }
 
 section > button:active {
   transform: translateY(1px);
   box-shadow: 0 5px 10px rgb(211, 211, 211, 0.2);
+  color: white;
 }
