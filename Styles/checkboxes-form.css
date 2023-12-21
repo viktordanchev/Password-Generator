@@ -27,6 +27,7 @@
 .container input {
   margin-right: 2px;
   cursor: pointer;
+  accent-color: #88c8ff;
 }
 
 .container:hover {
