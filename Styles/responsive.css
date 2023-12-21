@@ -15,9 +15,4 @@
   .slider-form {
     font-size: 1.2em;
   }
-
-  section > form.password-field input:hover,
-  section > form.password-field input:active {
-    transform: translateY(1px);
-  }
 }
