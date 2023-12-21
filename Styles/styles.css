@@ -8,6 +8,11 @@
   box-sizing: border-box;
   margin: 0px;
   padding: 0px;
+  user-select: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -khtml-user-select: none;
 }
 
 html {

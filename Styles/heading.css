@@ -1,5 +1,6 @@
 .heading {
-  color: rgb(211, 211, 211);
+  color: white;
+  cursor: context-menu;
 }
 
 header.heading > h1 {
