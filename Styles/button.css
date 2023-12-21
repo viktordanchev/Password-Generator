@@ -13,10 +13,10 @@ section > button {
 
 section > button:hover {
   border: 1px solid rgb(211, 211, 211);
-  transform: translateY(-3px);
+  transform: translateY(-1px);
 }
 
 section > button:active {
-  transform: translateY(-1px);
+  transform: translateY(1px);
   box-shadow: 0 5px 10px rgb(211, 211, 211, 0.2);
 }

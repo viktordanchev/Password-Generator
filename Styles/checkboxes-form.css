@@ -30,9 +30,9 @@
 }
 
 .container:hover {
-  transform: translateY(-3px);
+  transform: translateY(-1px);
 }
 
 .container:active {
-  transform: translateY(-1px);
+  transform: translateY(1px);
 }
