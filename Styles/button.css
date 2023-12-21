@@ -8,12 +8,13 @@ section > button {
   font-size: 1.3em;
   font-weight: bold;
   letter-spacing: 1px;
-  color: rgb(211, 211, 211);
+  color: white;
 }
 
 section > button:hover {
-  border: 1px solid rgb(211, 211, 211);
+  border: 1px solid white;
   transform: translateY(-1px);
+  background-color: #88c8ff;
 }
 
 section > button:active {
