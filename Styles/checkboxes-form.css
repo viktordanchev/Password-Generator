@@ -3,15 +3,36 @@
   grid-template-areas:
     "box box"
     "box box";
-  font-size: 1.2em;
+  font-size: 1.1em;
   height: 35%;
   gap: 5px;
+  width: 70%;
 }
 
-.checkboxes-form div:nth-child(odd) {
-  padding-left: 40%;
-}
-
-.checkboxes-form div:nth-child(even) {
+.checkboxes-form .container:nth-child(even) {
   padding-left: 10%;
+}
+
+.container {
+  cursor: pointer;
+  font-family: system-ui, sans-serif;
+  font-size: 1.1em;
+  font-weight: bold;
+  line-height: 1.1;
+  display: grid;
+  grid-template-columns: 1em auto;
+  gap: 10px;
+}
+
+.container input {
+  margin-right: 2px;
+  cursor: pointer;
+}
+
+.container:hover {
+  transform: translateY(-3px);
+}
+
+.container:active {
+  transform: translateY(-1px);
 }
