@@ -49,4 +49,9 @@
     border: 1px solid rgb(211, 211, 211);
     box-shadow: 0 5px 10px rgb(211, 211, 211, 0.2);
   }
+
+  section > form.password-field:hover span {
+    visibility: hidden;
+    opacity: 1;
+  }
 }
