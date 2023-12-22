@@ -1,7 +1,5 @@
-const events = ["click", "touchend", "touchcancel", "touchstart", "touchmove"];
 const generateButton = document.querySelector("section button");
-
-events.forEach((e) => generateButton.addEventListener(e, generate));
+generateButton.addEventListener("click", generate);
 
 function generate() {
   const uppercaseChecked = document.querySelector(
