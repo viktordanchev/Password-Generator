@@ -38,4 +38,15 @@
   .container:active {
     transform: translateY(1px);
   }
+
+  section > form.password-field input:hover {
+    border: 0px;
+    transform: translateY(0px);
+  }
+
+  section > form.password-field input:active {
+    transform: translateY(1px);
+    border: 1px solid rgb(211, 211, 211);
+    box-shadow: 0 5px 10px rgb(211, 211, 211, 0.2);
+  }
 }
