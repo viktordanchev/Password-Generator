@@ -1,4 +1,4 @@
-const events = ["click", "touchend"];
+const events = ["click", "touchend", "touchcancel", "touchstart", "touchmove"];
 const generateButton = document.querySelector("section button");
 
 events.forEach((e) => generateButton.addEventListener(e, generate));
