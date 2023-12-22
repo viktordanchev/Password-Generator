@@ -24,7 +24,7 @@
   }
 
   section > button:active {
-    transform: scale(0.96);
+    transform: scale(0.95);
     border: 1px solid white;
     background-color: #88c8ff;
     color: white;
@@ -36,7 +36,7 @@
   }
 
   .container:active {
-    transform: translateY(1px);
+    transform: translateY(2px);
   }
 
   section > form.password-field input:hover {
@@ -45,7 +45,7 @@
   }
 
   section > form.password-field input:active {
-    transform: translateY(1px);
+    transform: translateY(2px);
     border: 1px solid rgb(211, 211, 211);
     box-shadow: 0 5px 10px rgb(211, 211, 211, 0.2);
   }
