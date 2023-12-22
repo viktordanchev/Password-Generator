@@ -52,5 +52,6 @@
 
   section > form.password-field:hover span {
     visibility: hidden;
+    opacity: 1;
   }
 }
