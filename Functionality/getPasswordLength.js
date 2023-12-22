@@ -1,6 +1,9 @@
+const events = ["click", "touchstart"];
 const passLength = document.querySelector(".slider-form input");
 
-passLength.addEventListener("click", () => {
-  document.querySelector(".slider-form label span").textContent =
-    passLength.value;
-});
+events.forEach((e) =>
+  passLength.addEventListener(e, () => {
+    document.querySelector(".slider-form label span").textContent =
+      passLength.value;
+  })
+);
