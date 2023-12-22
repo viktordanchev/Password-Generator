@@ -15,6 +15,7 @@ function generate() {
     ".checkboxes-form .symbols-checkbox input"
   ).checked;
   const passLength = document.querySelector(".slider-form input").value;
+  const copyTextElement = document.querySelector(".password-field span");
 
   const uppercaseLetters = getUppercaseLetters();
   const lowercaseLetters = getLowercaseLetters();
@@ -59,7 +60,8 @@ function generate() {
   }
 
   document.querySelector(".password-field input").value = password;
-  document.querySelector(".password-field span").textContent = "Copy";
+  copyTextElement.textContent = "Copy";
+  copyTextElement.removeAttribute("style");
 }
 
 function getUppercaseLetters() {
