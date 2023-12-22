@@ -16,24 +16,6 @@
     font-size: 1.2em;
   }
 
-  section > form.password-field input:hover {
-    border: 0px;
-    transform: translateY(0px);
-    cursor: pointer;
-  }
-
-  section > form.password-field input:active {
-    border: 1px solid rgb(211, 211, 211);
-    box-shadow: 0 5px 10px rgb(211, 211, 211, 0.2);
-    transform: translateY(1px);
-  }
-
-  section > form.password-field:active span {
-    visibility: visible;
-    opacity: 1;
-    transition: opacity 1s linear;
-  }
-
   section > button:hover {
     border: 0px;
     transform: translateY(0px);
@@ -42,18 +24,10 @@
   }
 
   section > button:active {
-    border: 1px solid rgb(222, 222, 222);
-    box-shadow: 0 5px 10px rgb(211, 211, 211, 0.2);
+    border: 1px solid white;
     transform: translateY(1px);
     background-color: #88c8ff;
     color: white;
-  }
-
-  .container:hover {
-    transform: translateY(0px);
-  }
-
-  .container:active {
-    transform: translateY(1px);
+    box-shadow: 0 5px 10px rgb(211, 211, 211, 0.2);
   }
 }

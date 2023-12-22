@@ -12,7 +12,7 @@ section > button {
 }
 
 section > button:hover {
-  border: 1px solid rgb(222, 222, 222);
+  border: 1px solid white;
   transform: translateY(-1px);
   background-color: #88c8ff;
   color: white;
