@@ -1,4 +1,4 @@
-const events = ["click", "touchstart"];
+const events = ["click", "touchend"];
 const passLength = document.querySelector(".slider-form input");
 
 events.forEach((e) =>
