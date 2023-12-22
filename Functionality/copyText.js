@@ -10,5 +10,6 @@ function copyText() {
   setTimeout(function () {
     copyTextElement.style.visibility = "hidden";
   }, 2000);
+
   copyTextElement.style.visibility = "visible";
 }
