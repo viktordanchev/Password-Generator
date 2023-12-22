@@ -24,11 +24,18 @@
   }
 
   section > button:active {
-    transform: scale(0.98);
+    transform: scale(0.96);
     border: 1px solid white;
-    transform: translateY(1px);
     background-color: #88c8ff;
     color: white;
-    box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24);
+    box-shadow: 0 5px 10px rgb(211, 211, 211, 0.2);
+  }
+
+  .container:hover {
+    transform: translateY(0px);
+  }
+
+  .container:active {
+    transform: translateY(1px);
   }
 }
